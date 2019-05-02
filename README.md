@@ -11,4 +11,4 @@ npm install
 ionic cordova build android --prod
 ionic cordova build ios --prod
 
-[![Watch the video](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://www.youtube.com/watch?v=5m1354JuF-k)
