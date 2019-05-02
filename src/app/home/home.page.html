@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar color="light">
+    <ion-title>
+      <ion-icon name="book"></ion-icon>&nbsp;&nbsp;READER
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+  <div *ngFor="let temp of ' '.repeat(3).split(''), let i = index">
+    <ion-card color="dark">
+      <ion-card-content color="dark">
+        <ion-button size="small" color="light" (click)="download(i+1)"><ion-icon  slot="icon-only" name="download"></ion-icon></ion-button><ion-button color="calm" size="small" ><ion-icon  slot="icon-only" name="star" fill="outline"></ion-icon></ion-button>
+        <img src="assets/{{i+1}}.jpg" width="80%" height="auto">
+        <ion-button expand="full"  color="light" size="large" (click)="openPDF(i+1)">Read</ion-button>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <!--ion-card>
+    <ion-card-content>
+      <ion-button size="small" (click)="download(2)">Download<ion-icon  slot="icon-only" name="download"></ion-icon></ion-button>
+      <img src="assets/2.jpg" width="80%" height="auto">
+      <ion-button expand="full"  (click)="openPDF(2)">Read</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-card>
+    <ion-card-content>
+      <ion-button size="small" (click)="download(3)">Download<ion-icon  slot="icon-only" name="download"></ion-icon></ion-button>
+      <img src="assets/3.jpg" width="80%" height="auto">
+      <ion-button expand="full"  (click)="openPDF(3)">Read</ion-button>
+    </ion-card-content>
+  </ion-card>-->
+
+</ion-content>
