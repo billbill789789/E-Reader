@@ -10,5 +10,3 @@ This project uses magzine app to demostrate the usage of downloading online pdf 
 npm install
 ionic cordova build android --prod
 ionic cordova build ios --prod
-
-[![Watch the video](https://www.youtube.com/watch?v=5m1354JuF-k)
