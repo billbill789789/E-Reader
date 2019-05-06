@@ -7,6 +7,6 @@ This project uses magzine app to demostrate the usage of downloading online pdf 
 2. click Read button on the bottom of magzines to start to read.
 
 # How to build this app
-npm install
-ionic cordova build android --prod
+npm install,
+ionic cordova build android --prod,
 ionic cordova build ios --prod
